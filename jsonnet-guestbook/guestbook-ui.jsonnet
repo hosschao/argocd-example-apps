@@ -11,7 +11,8 @@ local params = import 'params.libsonnet';
          "ports": [
             {
                "port": params.servicePort,
-               "targetPort": params.containerPort
+               "targetPort": params.containerPort,
+               "nodePort": params.nodePort
             }
          ],
          "selector": {
