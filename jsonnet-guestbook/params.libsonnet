@@ -5,5 +5,5 @@
   replicas: 1,
   servicePort: 80,
   nodePort: 30010,
-  type: "nodePort"
+  type: "NodePort"
 }
